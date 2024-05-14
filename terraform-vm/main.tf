@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 module "example_instance" {
-  source = "./modules"
+  source = "../modules"
 
   instance_ami    = "ami-0bb84b8ffd87024d8"  # Your AMI ID
   instance_type   = "t2.micro"               # Your instance type
